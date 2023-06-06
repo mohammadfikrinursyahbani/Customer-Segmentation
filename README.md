@@ -10,3 +10,14 @@
 | Income | Numerical   | Real  | Self-reported annual income in US dollars of the customer |
 | Occupation | Categorical   | {0,1,2}  | Category of occupation of the customer. 0 = Unemployed/Unskilled, 1 = Skilled employee/official, 2 = management/self-employed/high qualified employee/officer |
 | Settlement Size | Categorical   | {0,1,2}  |The size of the city that the customer lives in. 0 = Small city, 1 = Mid-sized city, 2 = big city |
+## Result Segmentation
+- Cluster 0 : Single + Medium/big city + Male + Employed (employee or self-employed)
+- Cluster 1 : Non-single + Female + small city + unemployed atau employees ( Ada sangat sedikit kasus di medium / big city)
+- Cluster 2 : Non-Single + Female + medium/large city + management/self-employed
+- Cluster 3 : Single + Small city + Male + Employed
+- Cluster 4 : Non-Single + Male
+- Cluster 5 : Single + Female + Small city (Ada sangat sedikit kasus medium sized city/big city)
+This lab requires **Python 3.10.11** and the following Python libraries installed:
+* Basic Libraries: [Pandas](https://pandas.pydata.org), [NumPy](http://www.numpy.org)
+* Visualization Libraries: [Matplotlib](http://matplotlib.org), [GeoPandas](https://geopandas.org), [Folium](https://python-visualization.github.io/folium/), [PlotlyExpress](https://plotly.com/python/plotly-express), [Seaborn](https://seaborn.pydata.org)
+* Machine Learning Libraries: [Scikit-Learn](https://scikit-learn.org)
