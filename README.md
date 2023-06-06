@@ -1,6 +1,6 @@
 # Customer-Segmentation
 ## Dataset Description
-| Variable | Data Type | Range | Range |
+| Variable | Data Type | Range | Description |
 |------|------|-----------|-----------|
 | ID | Numerical   | Integer   | Shows a unique identificator of a customer |
 | Sex | Categorical   | {0,1}   |Biological sex (gender) of a customer. In this dataset there are only 2 different options. 0 = Male, 1= = Female |
